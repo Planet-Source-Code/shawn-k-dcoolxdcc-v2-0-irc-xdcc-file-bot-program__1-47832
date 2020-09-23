@@ -1,0 +1,98 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\Kiri\dCoolXDCC
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+User32=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\Mscomctl.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\windows\system32\mscomctl.ocx=
+c:\windows\system32\comdlg32.ocx=
+c:\windows\system32\msvbvm60.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\oleaut32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\olepro32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\asycfilt.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Kiri\XDCC\dCoolXDCC.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\Mscomctl.ocx=No
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\Comdlg32.ocx=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Kiri\XDCC\dCoolXDCC.exe=$(AppPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Kiri\XDCC\dCoolXDCC.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=dCoolXDCC - Installation
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=dCoolXDCC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|dCoolXDCC]
+Icon1=dCoolXDCC.exe
+Title1=dCoolXDCC v2.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=d:\Kiri\dCoolXDCC
+ProjectFolder=C:\Documents and Settings\Shawn Khameneh\Desktop\How_to_con46239142002\Backup
+ServerSideCab=
+File1=d:\Kiri\dCoolXDCC\setup.exe
+File2=d:\Kiri\dCoolXDCC\Setup.Lst
+File3=d:\Kiri\dCoolXDCC\dCoolXDCC.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
